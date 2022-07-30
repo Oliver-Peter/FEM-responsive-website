@@ -1,0 +1,91 @@
+:root {
+  --clr-accent-500: hsl(13, 87%, 59%); 
+  --clr-accent-200: hsl(230, 3%, 63%);
+
+  --clr-primary-800: hsl(227, 39%, 23%);
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-150: hsl(15, 100%, 96%);
+
+  --ff-primary: 'Be Vietnam Pro', sans-serif;
+
+  --ff-body: var(--ff-primary);
+  --ff-heading: var(--ff-primary);
+
+  --ff-regular: 400;
+  --ff-semi-bold: 500;
+  --ff-bold: 700;
+
+  --fs-300: 13px;
+  --fs-400: 14px;
+  --fs-600: 16px;
+  --fs-800: 18px;
+  --fs-primary-heading: 40px;
+  --fs-secundary-heading: 30px;
+
+  --fs-body: var(--fs-600);
+  --fs-nav: var(--fs-400);
+  --fs-button: var(--fs-300);
+
+
+}
+/*
+  Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  Remove default margin
+*/
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+/*
+  Allow percentage-based heights in the application
+*/
+html, body {
+  height: 100%;
+}
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/*
+  Typographic tweaks!
+  Add accessible line-height
+  Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+  Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/*
+  Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
