@@ -47,4 +47,9 @@ module.exports = {
       },
     ],
   },
+
+  devServer: {
+    watchFiles: ["src/*.html"],
+    hot: true,
+  }
 };
