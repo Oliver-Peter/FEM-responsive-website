@@ -48,6 +48,7 @@
 */
 html, body {
   height: 100%;
+  background-color: black;
 }
 /* Set core root defaults */
 html:focus-within {
@@ -89,3 +90,5 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+
