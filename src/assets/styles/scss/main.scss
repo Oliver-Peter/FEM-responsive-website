@@ -1,3 +1,5 @@
+/* ================= Variables ================ */
+
 :root {
   --clr-accent-500: hsl(13, 87%, 59%); 
   --clr-accent-200: hsl(230, 3%, 63%);
@@ -12,9 +14,9 @@
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-primary);
 
-  --ff-regular: 400;
-  --ff-semi-bold: 500;
-  --ff-bold: 700;
+  --fw-regular: 400;
+  --fw-semi-bold: 500;
+  --fw-bold: 700;
 
   --fs-300: 13px;
   --fs-400: 14px;
@@ -27,8 +29,12 @@
   --fs-nav: var(--fs-400);
   --fs-button: var(--fs-300);
 
-
 }
+
+/* -------------------------------------------- */
+
+/* ================== Presets ================= */
+
 /*
   Use a more-intuitive box-sizing model.
 */
@@ -48,7 +54,7 @@
 */
 html, body {
   height: 100%;
-  background-color: black;
+  
 }
 /* Set core root defaults */
 html:focus-within {
@@ -91,4 +97,53 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+/* -------------------------------------------- */
+
+/* ============== Utility classes ============= */
+
+.bg-neutral-100 {
+  background-color: var(--clr-neutral-100);
+}
+
+.bg-neutral-150 {
+  background-color: var(--clr-neutral-100);
+}
+
+.fs-300 {
+  font-size: var(--fs-300);
+}
+
+.fs-400 {
+  font-size: var(--fs-400);
+}
+
+.fs-600 {
+  font-size: var(--fs-600);
+}
+
+.fs-800 {
+  font-size: var(--fs-800);
+}
+
+.fs-primary-heading {
+  font-size: var(--fs-primary-heading);
+}
+
+.fs-secundary-heading {
+  font-size: var(--fs-secundary-heading);
+}
+
+.fw-regular {
+  font-weight: var(--fw-regular);
+}
+
+.fw-semi-bold {
+  font-weight: var(--fw-semi-bold);
+}
+
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+
+/* -------------------------------------------- */
 
