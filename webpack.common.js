@@ -51,8 +51,8 @@ module.exports = {
     new CleanWebpackPlugin(),
   ].concat(pages.map(htmlWebpackPerPage)),
 
-/*   devServer: {
-    watchFiles: ["src/*.html", "src/partials"],
+  devServer: {
+    watchFiles: ["src/*.html"],
     hot: true,
-  } */
+  }
 };
