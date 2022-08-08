@@ -1,14 +1,16 @@
 /* ================= Variables ================ */
 
 :root {
-  --clr-accent-500: hsl(13, 87%, 59%); 
-  --clr-accent-200: hsl(230, 3%, 63%);
+  --clr-accent-500: hsl(12, 60%, 45%); 
+  --clr-accent-400: hsl(12, 88%, 59%);
+  --clr-accent-300: hsl(12, 88%, 75%);
+  --clr-accent-200: hsl(13, 100%, 96%);
 
-  --clr-primary-800: hsl(227, 39%, 23%);
-  --clr-primary-900: black;
+  --clr-primary-800: hsl(228, 39%, 23%);
+ 
 
   --clr-neutral-100: hsl(0, 0%, 100%);
-  --clr-neutral-150: hsl(15, 100%, 96%);
+  --clr-neutral-900: hsl(232, 12%, 13%);
 
   --ff-primary: 'Be Vietnam Pro', sans-serif;
 
@@ -35,7 +37,6 @@
 /* -------------------------------------------- */
 
 /* ================== Presets ================= */
-
 /*
   Use a more-intuitive box-sizing model.
 */
@@ -98,42 +99,57 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
-
 /* -------------------------------------------- */
 
 /* ============== Utility classes ============= */
 
-.bg-neutral-100 {
-  background-color: var(--clr-neutral-100);
-}
 
-.bg-neutral-150 {
-  background-color: var(--clr-neutral-100);
-}
-
-.bg-primary-200 {
-  background-color: var(--clr-accent-200);
-}
-
-.bg-primary-500 {
-  background-color: var(--clr-accent-500);
-}
 
 .bg-primary-800 {
   background-color: var(--clr-primary-800);
 }
 
-.bg-primary-900 {
-  background-color:  var(--clr-primary-900);
+.bg-accent-500 {
+  background-color: var(--clr-accent-500);
 }
 
-.clr-primary-text {
+.bg-accent-400 {
+  background-color: var(--clr-accent-400);
+}
+
+.bg-accent-300 {
+  background-color: var(--clr-accent-300);
+}
+
+.bg-accent-200 {
+  background-color: var(--clr-accent-200);
+}
+
+/* -------------------------------------------- */
+
+.bg-neutral-900 {
+  background-color:  var(--clr-neutral-900);
+}
+
+.bg-neutral-100 {
+  background-color: var(--clr-neutral-100);
+}
+
+/* -------------------------------------------- */
+
+.text-primary-800 {
   color: var(--clr-primary-800);
 }
 
-.clr-neutral-text {
+.text-neutral-900 {
+  color: var(--clr-neutral-900);
+}
+
+.text-neutral-100 {
   color: var(--clr-neutral-100);
 }
+
+/* -------------------------------------------- */
 
 .fs-300 {
   font-size: var(--fs-300);
@@ -159,6 +175,8 @@ p, h1, h2, h3, h4, h5, h6 {
   font-size: var(--fs-secundary-heading);
 }
 
+/* -------------------------------------------- */
+
 .fw-regular {
   font-weight: var(--fw-regular);
 }
@@ -170,6 +188,8 @@ p, h1, h2, h3, h4, h5, h6 {
 .fw-bold {
   font-weight: var(--fw-bold);
 }
-
 /* -------------------------------------------- */
+
+/* ================== General styles ================= */
+
 
