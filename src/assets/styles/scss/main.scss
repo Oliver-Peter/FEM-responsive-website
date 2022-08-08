@@ -5,6 +5,7 @@
   --clr-accent-200: hsl(230, 3%, 63%);
 
   --clr-primary-800: hsl(227, 39%, 23%);
+  --clr-primary-900: black;
 
   --clr-neutral-100: hsl(0, 0%, 100%);
   --clr-neutral-150: hsl(15, 100%, 96%);
@@ -54,6 +55,7 @@
 */
 html, body {
   height: 100%;
+  font-family: var(--ff-body);
   
 }
 /* Set core root defaults */
@@ -107,6 +109,30 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .bg-neutral-150 {
   background-color: var(--clr-neutral-100);
+}
+
+.bg-primary-200 {
+  background-color: var(--clr-accent-200);
+}
+
+.bg-primary-500 {
+  background-color: var(--clr-accent-500);
+}
+
+.bg-primary-800 {
+  background-color: var(--clr-primary-800);
+}
+
+.bg-primary-900 {
+  background-color:  var(--clr-primary-900);
+}
+
+.clr-primary-text {
+  color: var(--clr-primary-800);
+}
+
+.clr-neutral-text {
+  color: var(--clr-neutral-100);
 }
 
 .fs-300 {
